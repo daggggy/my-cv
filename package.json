@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/daggggy/my-cv/issues"
   },
-  "homepage": "https://github.com/daggggy/my-cv#readme"
+  "homepage": "https://github.com/daggggy/my-cv#readme",
+  "dependencies": {
+    "fullpage.js": "^3.0.7"
+  }
 }
