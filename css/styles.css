@@ -17,6 +17,12 @@
    filter: drop-shadow(5px 5px 5px #222);
  }
 
+ p {
+   color: #D3D3D3;
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+ }
+
  span {
    background: #F5F5F5 !important
  }
@@ -28,7 +34,7 @@
  }
 
  .about-me-content {
-   background-color: rgba(0, 0, 0, 0.4);
+   background-color: rgba(0, 0, 0, 0.6);
    left: 50%;
    padding: 20px;
    position: absolute;
