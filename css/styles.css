@@ -33,6 +33,11 @@
    background-size: cover;
  }
 
+ .about-me p {
+   width: 50%;
+   margin-left: 25%;
+ }
+
  .about-me-content {
    background-color: rgba(0, 0, 0, 0.6);
    left: 50%;
@@ -69,6 +74,58 @@
    text-align: center;
  }
 
+ .home h1 {
+   font-family: Courier New, Courier, monospace;
+   margin: 0px
+ }
+
+ .home h2 {
+   letter-spacing: 4px;
+ }
+
+ .home img {
+   height: 250px;
+   width: 250px;
+   margin-bottom: 50px;
+ }
+
+ .scrolldown {
+   bottom: 15px;
+   height: 40px;
+   left: 50%;
+   position: absolute;
+   transform: translateY(-80px) translateX(-50%) rotate(45deg);
+   width: 40px;
+ }
+
+ .scrolldown span {
+   animation: animate 1s linear infinite;
+   background: none !important;
+   border-bottom: 2px solid #D3D3D3;
+   border-right: 2px solid #D3D3D3;
+   display: block;
+   height: 100%;
+   left: 0;
+   opacity: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+ }
+
+ .scrolldown span:nth-child(1) {
+   animation-delay: -0.4s;
+   transform: translate(-15px, -15px);
+ }
+
+ .scrolldown span:nth-child(2) {
+   animation-delay: -0.2s;
+   transform: translate(0px, 0px);
+ }
+
+ .scrolldown span:nth-child(3) {
+   transform: translate(15px, 15px);
+ }
+
  .skills {
    background: url('../src/skills-bg.jpg');
    background-position: center;
@@ -79,4 +136,24 @@
    background: url('../src/work-experience-bg.jpg');
    background-position: center;
    background-size: cover;
+ }
+
+ @keyframes animate {
+   0% {
+     left: -5px;
+     opacity: 0;
+     top: -5px;
+   }
+
+   25% {
+     left: 0px;
+     opacity: 1;
+     top: 0px;
+   }
+
+   100% {
+     left: 5px;
+     opacity: 0;
+     top: 5px;
+   }
  }
