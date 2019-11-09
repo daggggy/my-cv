@@ -5,6 +5,10 @@
    text-align: center;
  }
 
+ span {
+   background: #f9f9f9 !important
+ }
+
  .home {
    background: url('../src/homeBG.jpg');
    background-position: center;
