@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/daggggy/my-cv#readme",
   "dependencies": {
+    "animate.css": "^3.7.2",
     "fullpage.js": "^3.0.7"
   }
 }
