@@ -9,5 +9,40 @@
    background: url('../src/homeBG.jpg');
    background-position: center;
    background-size: cover;
-   width: 100%;
+ }
+
+ .about-me {
+   background: url('../src/about-me-bg.jpg');
+   background-position: center;
+   background-size: cover;
+ }
+
+ .education {
+   background: url('../src/education-bg.jpg');
+   background-position: center;
+   background-size: cover;
+ }
+
+ .work-experience {
+   background: url('../src/work-experience-bg.jpg');
+   background-position: center;
+   background-size: cover;
+ }
+
+ .skills {
+   background: url('../src/skills-bg.jpg');
+   background-position: center;
+   background-size: cover;
+ }
+
+ .hobbies {
+   background: url('../src/hobbies-bg.jpg');
+   background-position: center;
+   background-size: cover;
+ }
+
+ .contact-me {
+   background: url('../src/contact-me-bg.jpg');
+   background-position: center;
+   background-size: cover;
  }
