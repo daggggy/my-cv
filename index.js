@@ -12,3 +12,10 @@ $(window).on('beforeunload', function() {
 $(document).ready(function() {
   $(this).scrollTop(0);
 });
+
+window.addEventListener("load", function() {
+  var loader = document.querySelector(".loader");
+  loader.className += " hidden";
+});
+
+ScrollOut();
