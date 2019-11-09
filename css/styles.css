@@ -1,9 +1,15 @@
- h1, h2 {
+ h1 {
    color: #F5F5F5;
    filter: drop-shadow(5px 5px 5px #222);
    font-family: 'Montserrat', sans-serif;
    font-size: 3em;
-   margin: 0px;
+   text-align: center;
+ }
+
+ h2 {
+   color: #D3D3D3;
+   font-size: 1.5em;
+   font-family: 'Montserrat', sans-serif;
    text-align: center;
  }
 
@@ -26,6 +32,17 @@
    background: url('../src/about-me-bg.jpg');
    background-position: center;
    background-size: cover;
+ }
+
+ .about-me-content {
+   background-color: rgba(0, 0, 0, 0.6);
+   left: 50%;
+   padding: 20px;
+   position: absolute;
+   text-align: center;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   width: 80%;
  }
 
  .education {
