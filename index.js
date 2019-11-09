@@ -1,3 +1,4 @@
 new fullpage('#main', {
-  autoScrolling: true
+  autoScrolling: true,
+  scrollingSpeed: 1500,
 });
