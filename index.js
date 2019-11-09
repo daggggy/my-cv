@@ -19,3 +19,5 @@ window.addEventListener("load", function() {
 });
 
 ScrollOut();
+
+AOS.init();
