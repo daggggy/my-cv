@@ -21,13 +21,6 @@
    background: #F5F5F5 !important
  }
 
- .home {
-   background: url('../src/homeBG.jpg');
-   background-position: center;
-   background-size: cover;
-   text-align: center;
- }
-
  .about-me {
    background: url('../src/about-me-bg.jpg');
    background-position: center;
@@ -45,20 +38,14 @@
    width: 80%;
  }
 
+ .contact-me {
+   background: url('../src/contact-me-bg.jpg');
+   background-position: center;
+   background-size: cover;
+ }
+
  .education {
    background: url('../src/education-bg.jpg');
-   background-position: center;
-   background-size: cover;
- }
-
- .work-experience {
-   background: url('../src/work-experience-bg.jpg');
-   background-position: center;
-   background-size: cover;
- }
-
- .skills {
-   background: url('../src/skills-bg.jpg');
    background-position: center;
    background-size: cover;
  }
@@ -69,8 +56,21 @@
    background-size: cover;
  }
 
- .contact-me {
-   background: url('../src/contact-me-bg.jpg');
+ .home {
+   background: url('../src/homeBG.jpg');
+   background-position: center;
+   background-size: cover;
+   text-align: center;
+ }
+
+ .skills {
+   background: url('../src/skills-bg.jpg');
+   background-position: center;
+   background-size: cover;
+ }
+
+ .work-experience {
+   background: url('../src/work-experience-bg.jpg');
    background-position: center;
    background-size: cover;
  }
