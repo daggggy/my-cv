@@ -148,9 +148,14 @@
  }
 
  .skills {
-   background: url('../src/skills-bg.jpg');
+   background-attachment: fixed;
+   background-image: url('../src/skills-bg.jpg');
    background-position: center;
    background-size: cover;
+   display: table;
+   height: 100vh;
+   text-align: center;
+   width: 100%;
  }
 
  .work-experience {
