@@ -1,0 +1,13 @@
+ h1 {
+   color: #f9f9f9;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 3em;
+   text-align: center;
+ }
+
+ .home {
+   background: url('../src/homeBG.jpg');
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+ }
